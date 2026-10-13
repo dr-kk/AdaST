@@ -1,0 +1,46 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Model checkpoints
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+
+# Datasets and large artifacts
+datasets/
+data/
+*.avi
+*.mp4
+*.mkv
+*.zip
+*.tar
+*.gz
+*.npy
+*.npz
+
+# Local experimental outputs
+runs/
+logs/
+wandb/
+tensorboard/
+*.log
+
+# Temporary and backup files
+*.bak
+*.tmp
+*WRONG.py
+New Python Source File*.py
+HMDB51_Exploratory_Backup/
+
+# Local tools
+.vscode/
+.idea/
